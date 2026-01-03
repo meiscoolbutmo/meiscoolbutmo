@@ -5,10 +5,18 @@
     <meta charset="UTF-8">
   <title>meiscoolbutmo</title>
     <style>
-      p {
-  max-width: 55%;
-  margin: 0 auto;
+      @font-face {
+    font-family: "ComicNeue";
+    src: url("ComicNeue-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
+       @font-face {
+        font-family: "ComicNeue";
+        src: url("ComicNeue-Bold.ttf") format("truetype");
+        font-weight: bold;
+        font-style: normal;
+       }
 
 @media (max-width: 768px) {
   p {
@@ -17,8 +25,12 @@
 }
       body {
           text-align: center;
-        font-family: "Comic Sans MS";
+        font-family: "ComicNeue";
+        font-weight: normal;
           }
+      h1, h2, h3, h4, h5, h6 {
+      font-weight: bold;
+  }
       .lineCreatureMcNuggets {
   width: 60%;
   height: 4px;
@@ -26,6 +38,11 @@
   border: none;
   margin: 1em auto;
 }
+      p {
+      font-weight: normal;
+      max-width: 55%;
+      margin: 0 auto;
+  }
     </style>
     <link rel="icon" href="fav_meiscoolbutmo.png" type="image/png">
   </head>
@@ -43,6 +60,7 @@
   </body>
 
 </html>
+
 
 
 
