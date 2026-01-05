@@ -66,4 +66,27 @@
   display: none;
   display: block;
 }
-        
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px;
+  
+}
+
+.tab:active {
+  background-color: #C3B9DF;
+  
+}
+
+.tab:hover {
+  background-color: #AB9AC9;
+  
+}
