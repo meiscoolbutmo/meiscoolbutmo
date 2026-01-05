@@ -8,7 +8,11 @@ tabs.forEach(function (tab) {
     tabContents.forEach(function (tabContent) {
       tabContent.classList.remove('active')
     })
+     tabs.forEach(function (tab) {
+      tab.classList.remove('active')
+    })
 
+    tab.classList.add('active')
     target.classList.add('active')
   })
 })
