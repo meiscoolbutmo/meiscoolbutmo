@@ -1,5 +1,5 @@
 .meAndMyWonderfulNameCalledMeiscoolbutmoIInventedItALongTimeAgoAsAScratchUsernameInTheYearTwentyTwenty {
-  height: 70px;
+  height: 100px;
   width: auto;
 }
       @font-face {
@@ -23,18 +23,7 @@
       max-width: 55%;
       margin: 0 auto;
   }
-@media (max-width: 768px) {
-  p {
-    max-width: 90%;
-  }
-    body {
-      font-size: 12px;
-  }
-  .meAndMyWonderfulNameCalledMeiscoolbutmoIInventedItALongTimeAgoAsAScratchUsernameInTheYearTwentyTwenty {
-  height: 50px;
-  width: auto;
-  }
-}
+
       body {
           text-align: center;
         font-family: "ComicNeue";
@@ -70,7 +59,7 @@
 .tabs {
   display: flex;
   justify-content: center;
-  gap: 20px
+  gap: 20px;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -92,4 +81,17 @@
 .tab:hover {
   background-color: #AB9AC9;
   
+}
+
+@media (max-width: 768px) {
+  p {
+    max-width: 90%;
+  }
+    body {
+      font-size: 15px;
+  }
+  .meAndMyWonderfulNameCalledMeiscoolbutmoIInventedItALongTimeAgoAsAScratchUsernameInTheYearTwentyTwenty {
+  height: 70px;
+  width: auto;
+  }
 }
