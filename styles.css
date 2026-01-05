@@ -55,6 +55,7 @@
   background-color: black;
   border: none;
   margin: 1em auto;
+      }
         
 [data-tab-content] {
   display: none;
