@@ -69,10 +69,13 @@
 
 .tabs {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 20px
   list-style-type: none;
   margin: 0;
   padding: 0;
+  border-bottom: 4px solid black;
+  padding-bottom: 5px;
 }
 
 .tab {
