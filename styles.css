@@ -3,7 +3,7 @@
   width: auto;
 }
 .galleryImage {
-  height: 200px;
+  height: 400px;
   width: auto;
   }
 
@@ -98,6 +98,10 @@
   }
   .meAndMyWonderfulNameCalledMeiscoolbutmoIInventedItALongTimeAgoAsAScratchUsernameInTheYearTwentyTwenty {
   height: 70px;
+  width: auto;
+  }
+  .galleryImage {
+  height: 200px;
   width: auto;
   }
 }
