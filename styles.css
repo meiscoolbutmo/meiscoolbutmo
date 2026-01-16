@@ -2,6 +2,11 @@
   height: 100px;
   width: auto;
 }
+.galleryImage {
+  height: 200px;
+  width: auto;
+  }
+
       @font-face {
     font-family: "ComicNeue";
     src: url("ComicNeue-Regular.ttf") format("truetype"),
@@ -96,7 +101,3 @@
   width: auto;
   }
 }
-.galleryImage {
-  height: 200px;
-  width: auto;
-  }
